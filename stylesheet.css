@@ -1,0 +1,72 @@
+html, body{
+  font-family: sans-serif;
+}
+#container{
+	min-width: 500px;
+}
+#picture{
+	width: 150px;
+	height: 150px;
+	border:1px solid black;
+}
+#name{
+	position: relative;
+	left: -225px;
+	bottom: -150px;
+	font-family: "Courier", Times, serif;
+	text-align: right;
+	width: 750px;
+	margin: auto;
+}
+#personal{
+	position: relative;
+	right: -75px;
+	bottom: -151px;
+	z-index: -1;
+	padding-left: 10px;
+	width: 600px;
+	color: white;
+	margin: auto;
+	background-color: black;	
+	overflow: hidden;
+	white-space: nowrap;
+}
+#summary{
+	width: 750px;
+	margin: auto;
+}
+#skills{
+	width: 750px;
+	margin: auto;
+	overflow: hidden;
+	white-space: nowrap;
+}
+table.center{
+	margin-left:auto;
+	margin-right: auto;
+	border: 0;
+	border-spacing: 100px 5px;
+}
+#work{
+	width: 750px;
+	margin: auto;
+}
+#details{
+	width: 750px;
+	margin: auto;
+}
+#education{
+	width: 750px;
+	margin: auto;
+}
+#references{
+	width: 750px;
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+}
+h2{
+	width: 750px;
+	margin: auto;
+	border-bottom: 2px solid black;
+}
