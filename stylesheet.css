@@ -31,7 +31,7 @@ html, body{
 	overflow: hidden;
 	white-space: nowrap;
 }
-#summary{
+#details{
 	width: 750px;
 	margin: auto;
 }
@@ -47,18 +47,6 @@ table.center{
 	border: 0;
 	border-spacing: 100px 5px;
 }
-#work{
-	width: 750px;
-	margin: auto;
-}
-#details{
-	width: 750px;
-	margin: auto;
-}
-#education{
-	width: 750px;
-	margin: auto;
-}
 #references{
 	width: 750px;
 	margin: auto;
@@ -69,4 +57,22 @@ h2{
 	width: 750px;
 	margin: auto;
 	border-bottom: 2px solid black;
+	margin-bottom: 12.5px;
+}
+h3{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+h4{
+	display: inline;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+ul li{
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
 }
